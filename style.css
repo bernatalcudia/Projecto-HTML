@@ -64,3 +64,11 @@ div#nuestrasredes img{
     padding-left: 200px;
     padding-right: 200px;
 }
+
+#tablaposiciones{
+    text-align: center;
+}
+
+#tablaposiciones img{
+    width: 40px;
+}

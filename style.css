@@ -1,0 +1,26 @@
+#imagenlogo{
+    padding-top: 70px;
+    padding-left: 15px;
+    width: 9000px;
+}
+
+#description{
+    padding-top: 120px;
+    text-align: center;
+}
+
+#description h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+#description h3{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#description p{
+    padding-top: 15px;
+    padding-left: 15px;
+}

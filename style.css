@@ -72,3 +72,9 @@ div#nuestrasredes img{
 #tablaposiciones img{
     width: 40px;
 }
+
+#tabla{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}

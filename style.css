@@ -64,8 +64,8 @@ div#nuestrasredes img{
 
 #formulario{
     padding-top: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 #tablaposiciones{
@@ -122,4 +122,10 @@ div#nuestrasredes img{
 .tablasolida {
     border: solid;
     border-color: darkred;
+}
+
+#carouselExampleIndicators{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }

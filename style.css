@@ -46,7 +46,7 @@
 
 div#nuestrasredes{
     padding-top: 20px;
-    padding-left: 100px;
+    padding-left: 20px;
 }
 
 div#nuestrasredes img{
@@ -55,7 +55,7 @@ div#nuestrasredes img{
 
 #copyright{
     color: white;
-    text-align: center;
+    padding-left: 720px;
     padding-top: 5px;
 }
 
@@ -99,4 +99,16 @@ div#nuestrasredes img{
     padding-left: 890px;
     font-size: 30px;
     font-weight: bold;
+}
+
+
+#nuestrasredes a{
+    float: left;
+    padding-left: 20px;
+}
+
+#nuestrasredes h5{
+    font-weight: bold;
+    float: left;
+    color: white;
 }

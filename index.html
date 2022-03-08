@@ -1,185 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-          }
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
         }
       }
-    </script>
-    <title>LVP</title>
+    }
+  </script>
+  <title>LVP</title>
 </head>
+
 <body>
 
-    <!-- Barra navegación-->
+  <!-- Barra navegación-->
 
-    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-red-900">
-        <div class="container flex flex-wrap justify-between items-center mx-auto">
-          <a href="#" class="flex items-center">
-              <img src="Imagenes/Ligas-LVP-portada-PhotoRoom.png" class="mr-3 h-6 sm:h-10" alt="Logo LVP" />
-              <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">LVP</span>
-          </a>
-          <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
-            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-            <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-          </button>
-          <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
-            <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-              <li>
-                <a href="index.html" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-white-700 md:p-0 dark:text-white" aria-current="page">Home</a>
-              </li>
-              <li>
-                <a href="news.html" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">News</a>
-              </li>
-              <li>
-                <a href="matches.html" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Matches</a>
-              </li>
-              <li>
-                <a href="contact.html" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-    <!-- Fin barra navegación-->
-
-    <!--Contenido de la página web-->
-
-    <main>
-        <!--Pequeña descripcion a la izquierda con el logo a la derecha-->
-        <div class="columns-2">
-            <div id="description">
-                <h1 class="text-red-900">PROFESSIONAL VIDEO GAME LEAGUE</h1>
-                <h3>LVP, part of the MEDIAPRO Group, is one of the largest operators of video game competitions in the world and the largest esports organisation in the Spanish-speaking world.</h3>
-                <p>Through its offices in Madrid, Barcelona, Buenos Aires, Bogota and Mexico, it is present in more than 30 countries. LVP organises the most prestigious national competitions and major international tournaments, has online competition platforms (ArenaGG) and distributes worldwide events such as the League of Legends European Championship (c) in Spanish. LVP also provides event production and audiovisual production services.</p>
-            </div>
-            <img src="Imagenes/Ligas-LVP-portada-PhotoRoom.png" id="imagenlogo" alt="LogoLvp">
-        </div>
-
-        <!--Nuestra historia-->
-        <div id="ourhistory">
-            <h2 class="text-red-900">OUR HISTORY</h2>
-            <p>LVP is a specialist in the organisation of national competitions. It has almost a decade of experience in Spain, where it currently organises the League of Legends Superliga and Iberian Cup, the Unity League and the VALORANT Rising Series.</p>
-            <p>For more than two years now, as part of its international expansion strategy, LVP has made the leap to Latin America, where it operates the Master Flow League in Argentina, the Entel Honor League in Chile, the Honor Division in Mexico, the Golden League in Colombia, the Claro Gaming Stars League in Peru and the Volcano League Presented by TVCable in Ecuador.</p>
-            <p>In this sense, LVP stands out for structuring the national competitive ecosystem from its base, consolidating the teams, reinforcing their identities, connecting with the local public and generating stories around the competition and its protagonists.</p>
-        </div>
-
-        <div id="carouselExampleIndicators" class="carousel slide relative" data-bs-ride="carousel">
-          <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner relative w-full overflow-hidden">
-            <div class="carousel-item active float-left w-full">
-              <img
-                src="Imagenes/slider1.jpg"
-                class="block w-full"
-                alt="Wild Landscape"
-              />
-            </div>
-            <div class="carousel-item float-left w-full">
-              <img
-                src="Imagenes/slider2.jpg"
-                class="block w-full"
-                alt="Camera"
-              />
-            </div>
-            <div class="carousel-item float-left w-full">
-              <img
-                src="Imagenes/slider3.jpg"
-                class="block w-full"
-                alt="Exotic Fruits"
-              />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-
-    </main>  
-    <!--Fin del contenido-->
-
-    <br><br>
-
-    <!--Footer-->
-
-    <footer class="dark:bg-red-900">
-      <div class="columns-7" id="patrocinadores">
-          <a href="https://www.dominospizza.es/" target="_blank"><img src="Imagenes/dominospizza.png" alt="LogoDominos"></a>
-          <a href="https://www.elcorteingles.es/electronica/hp-gaming-intel/?utm_campaign=Patrocinio%20LVP&utm_source=LVP&utm_content=clic-header-web&utm_medium=Referral&utm_var1=espa%C3%B1a&utm_var2=superliga&utm_var3=lol" target="_blank"><img src="Imagenes/elcorteingles.png" alt="LogoElCorteIngles"></a>
-          <a href="https://www.intel.es/content/www/es/es/gaming/serious-gaming.html?utm_campaign=Patrocinio%20LVP&utm_source=LVP&utm_content=clic-header-web&utm_medium=Referral&utm_var1=espa%C3%B1a&utm_var2=superliga&utm_var3=lol" target="_blank"><img src="Imagenes/intel.png" alt="LogoIntel"></a>
-          <a href="https://nestlefamilyclub.es/promociones/kitkatcaravana?utm_campaign=Kitkat_Caravana_2021&utm_medium=banner&utm_source=superliga" target="_blank"><img src="Imagenes/kitkat.png" alt="LogoKitKat"></a>
-          <a href="https://www.mahou.es/gaming/" target="_blank"><img src="Imagenes/mahou.png" alt="LogoMahou"></a>
-          <a href="https://www.omen.com/es/es.html?utm_campaign=Patrocinio%20LVP&utm_source=LVP&utm_content=clic-header-web&utm_medium=Referral&utm_var1=espa%C3%B1a&utm_var2=superliga&utm_var3=lol" target="_blank"><img src="Imagenes/omen.png" alt="LogoOmen"></a>
-          <a href="https://takis.es/" target="_blank"><img src="Imagenes/takis.png" alt="LogoTakis"></a>
+  <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-red-900">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+      <a href="#" class="flex items-center">
+        <img src="Imagenes/Ligas-LVP-portada-PhotoRoom.png" class="mr-3 h-6 sm:h-10" alt="Logo LVP" />
+        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">LVP</span>
+      </a>
+      <button data-collapse-toggle="mobile-menu" type="button"
+        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"></path>
+        </svg>
+        <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+        <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+          <li>
+            <a href="index.html"
+              class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-white-700 md:p-0 dark:text-white"
+              aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="news.html"
+              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">News</a>
+          </li>
+          <li>
+            <a href="matches.html"
+              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Matches</a>
+          </li>
+          <li>
+            <a href="contact.html"
+              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact
+              us</a>
+          </li>
+        </ul>
       </div>
+    </div>
+  </nav>
 
-      
+  <!-- Fin barra navegación-->
 
-      <div id="nuestrasredes">
-          <h5>Our Social Networks: </h5>
-          <a href="https://www.instagram.com/lvp_es/"><img src="Imagenes/logoinstagram.png" alt="Logoinstagram"></a>
-          <a href="https://twitter.com/LVPes"><img src="Imagenes/logotwitter.png" alt="LogoTwitter"></a>
-          <a href="https://www.twitch.tv/lvpes"><img src="Imagenes/logotwitch.png" alt="LogoTwitch"></a>
-          <a href="https://www.youtube.com/user/LVPward"><img src="Imagenes/logoyoutube.png" alt="LogoYoutube"></a>
-          <a href="https://www.facebook.com/LigadeVideojuegosProfesional/"><img src="Imagenes/logofacebook.png" alt="LogoFacebook"></a>
+  <!--Contenido de la página web-->
+
+  <main>
+    <!--Pequeña descripcion a la izquierda con el logo a la derecha-->
+    <div class="columns-2">
+      <div id="description">
+        <h1 class="text-red-900">PROFESSIONAL VIDEO GAME LEAGUE</h1>
+        <h3>LVP, part of the MEDIAPRO Group, is one of the largest operators of video game competitions in the world and
+          the largest esports organisation in the Spanish-speaking world.</h3>
+        <p>Through its offices in Madrid, Barcelona, Buenos Aires, Bogota and Mexico, it is present in more than 30
+          countries. LVP organises the most prestigious national competitions and major international tournaments, has
+          online competition platforms (ArenaGG) and distributes worldwide events such as the League of Legends European
+          Championship (c) in Spanish. LVP also provides event production and audiovisual production services.</p>
       </div>
+      <img src="Imagenes/Ligas-LVP-portada-PhotoRoom.png" id="imagenlogo" alt="LogoLvp">
+    </div>
 
-      <br>
+    <!--Nuestra historia-->
+    <div id="ourhistory">
+      <h2 class="text-red-900">OUR HISTORY</h2>
+      <p>LVP is a specialist in the organisation of national competitions. It has almost a decade of experience in
+        Spain, where it currently organises the League of Legends Superliga and Iberian Cup, the Unity League and the
+        VALORANT Rising Series.</p>
+      <p>For more than two years now, as part of its international expansion strategy, LVP has made the leap to Latin
+        America, where it operates the Master Flow League in Argentina, the Entel Honor League in Chile, the Honor
+        Division in Mexico, the Golden League in Colombia, the Claro Gaming Stars League in Peru and the Volcano League
+        Presented by TVCable in Ecuador.</p>
+      <p>In this sense, LVP stands out for structuring the national competitive ecosystem from its base, consolidating
+        the teams, reinforcing their identities, connecting with the local public and generating stories around the
+        competition and its protagonists.</p>
+    </div>
 
-      <p id="copyright">Copyright ® 2022 LVP </p>
-    </footer>
+    <div id="carouselExampleIndicators" class="carousel slide relative" data-bs-ride="carousel">
+      <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner relative w-full overflow-hidden">
+        <div class="carousel-item active float-left w-full">
+          <img src="Imagenes/slider1.jpg" class="block w-full" alt="Wild Landscape" />
+        </div>
+        <div class="carousel-item float-left w-full">
+          <img src="Imagenes/slider2.jpg" class="block w-full" alt="Camera" />
+        </div>
+        <div class="carousel-item float-left w-full">
+          <img src="Imagenes/slider3.jpg" class="block w-full" alt="Exotic Fruits" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+        type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+        type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-    <!--Fin del footer-->
-    
+  </main>
+  <!--Fin del contenido-->
+
+  <br><br>
+
+  <!--Footer-->
+
+  <footer class="dark:bg-red-900">
+    <div class="columns-7" id="patrocinadores">
+      <a href="https://www.dominospizza.es/" target="_blank"><img src="Imagenes/dominospizza.png" alt="LogoDominos"></a>
+      <a href="https://www.elcorteingles.es/electronica/hp-gaming-intel/?utm_campaign=Patrocinio%20LVP&utm_source=LVP&utm_content=clic-header-web&utm_medium=Referral&utm_var1=espa%C3%B1a&utm_var2=superliga&utm_var3=lol"
+        target="_blank"><img src="Imagenes/elcorteingles.png" alt="LogoElCorteIngles"></a>
+      <a href="https://www.intel.es/content/www/es/es/gaming/serious-gaming.html?utm_campaign=Patrocinio%20LVP&utm_source=LVP&utm_content=clic-header-web&utm_medium=Referral&utm_var1=espa%C3%B1a&utm_var2=superliga&utm_var3=lol"
+        target="_blank"><img src="Imagenes/intel.png" alt="LogoIntel"></a>
+      <a href="https://nestlefamilyclub.es/promociones/kitkatcaravana?utm_campaign=Kitkat_Caravana_2021&utm_medium=banner&utm_source=superliga"
+        target="_blank"><img src="Imagenes/kitkat.png" alt="LogoKitKat"></a>
+      <a href="https://www.mahou.es/gaming/" target="_blank"><img src="Imagenes/mahou.png" alt="LogoMahou"></a>
+      <a href="https://www.omen.com/es/es.html?utm_campaign=Patrocinio%20LVP&utm_source=LVP&utm_content=clic-header-web&utm_medium=Referral&utm_var1=espa%C3%B1a&utm_var2=superliga&utm_var3=lol"
+        target="_blank"><img src="Imagenes/omen.png" alt="LogoOmen"></a>
+      <a href="https://takis.es/" target="_blank"><img src="Imagenes/takis.png" alt="LogoTakis"></a>
+    </div>
+
+
+
+    <div id="nuestrasredes">
+      <h5>Our Social Networks: </h5>
+      <a href="https://www.instagram.com/lvp_es/"><img src="Imagenes/logoinstagram.png" alt="Logoinstagram"></a>
+      <a href="https://twitter.com/LVPes"><img src="Imagenes/logotwitter.png" alt="LogoTwitter"></a>
+      <a href="https://www.twitch.tv/lvpes"><img src="Imagenes/logotwitch.png" alt="LogoTwitch"></a>
+      <a href="https://www.youtube.com/user/LVPward"><img src="Imagenes/logoyoutube.png" alt="LogoYoutube"></a>
+      <a href="https://www.facebook.com/LigadeVideojuegosProfesional/"><img src="Imagenes/logofacebook.png"
+          alt="LogoFacebook"></a>
+    </div>
+
+    <br>
+
+    <p id="copyright">Copyright ® 2022 LVP </p>
+  </footer>
+
+  <!--Fin del footer-->
+
 </body>
+
 </html>

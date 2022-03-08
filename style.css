@@ -77,4 +77,26 @@ div#nuestrasredes img{
     padding-top: 50px;
     padding-bottom: 30px;
     padding-left: 50px;
+    float: left;
+}
+
+#nextmatches{
+    padding-left: 200px;
+    float: left;
+    padding-top: 80px;
+}
+
+#nextmatches img{
+    width: 100px;
+}
+
+#nextmatches div{
+    padding-left: 40px;
+}
+
+#titulonextmatches{
+    padding-top: 100px;
+    padding-left: 890px;
+    font-size: 30px;
+    font-weight: bold;
 }

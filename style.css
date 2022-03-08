@@ -7,6 +7,7 @@
 #description{
     padding-top: 120px;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 
 #description h1{
@@ -28,10 +29,12 @@
 #ourhistory{
     text-align: center;
     padding-top: 50px;
+    font-family: 'Dancing Script', cursive;
 }
 
 #ourhistory h2{
     font-size: 30px;
+    font-weight: bold;
 }
 
 #ourhistory p{
@@ -74,14 +77,14 @@ div#nuestrasredes img{
 }
 
 #tabla{
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 30px;
-    padding-left: 50px;
+    padding-left: 100px;
     float: left;
 }
 
 #nextmatches{
-    padding-left: 200px;
+    padding-left: 160px;
     float: left;
     padding-top: 80px;
 }

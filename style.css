@@ -129,3 +129,14 @@ div#nuestrasredes img{
     padding-left: 50px;
     padding-right: 50px;
 }
+
+#listaganadores{
+    font-family: 'Dancing Script', cursive;
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+body{
+    background-color: rgb(201, 179, 179);
+}
